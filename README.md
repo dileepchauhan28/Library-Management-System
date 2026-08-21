@@ -181,3 +181,177 @@ Library-Management-System/
 │
 ├── .gitignore
 └── README.md
+
+📄 File Description
+Book.h
+
+Contains the declaration of the Book class.
+
+Responsible for:
+
+Book ID
+Book title
+Author
+Availability status
+Issue operation
+Return operation
+Display operation
+Member.h
+
+Contains the declaration of the Member class.
+
+Responsible for:
+
+Member ID
+Member name
+Member information display
+Library.h
+
+Contains the declaration of the Library class.
+
+Responsible for:
+
+Managing books
+Managing members
+Adding records
+Displaying records
+Issuing books
+Returning books
+Searching books
+Book.cpp
+
+Contains the implementation of the Book class.
+
+Member.cpp
+
+Contains the implementation of the Member class.
+
+Library.cpp
+
+Contains the implementation of the main library operations.
+
+main.cpp
+
+Contains the main program and menu-driven interface.
+
+data/books.txt
+
+Stores book information.
+
+data/member.txt
+
+Stores member information.
+
+🧪 Testing
+
+The following operations were tested:
+
+| Test Case               | Expected Result               |
+| ----------------------- | ----------------------------- |
+| Add new book            | Book added successfully       |
+| Add duplicate book ID   | Duplicate prevented           |
+| Add new member          | Member added successfully     |
+| Add duplicate member ID | Duplicate prevented           |
+| Display books           | All books displayed           |
+| Display members         | All members displayed         |
+| Issue available book    | Book status becomes Issued    |
+| Issue issued book       | Appropriate message displayed |
+| Return issued book      | Book status becomes Available |
+| Return available book   | Appropriate message displayed |
+| Search by title         | Matching books displayed      |
+| Search by author        | Matching books displayed      |
+| Search invalid book     | No matching books found       |
+| Empty book list         | Appropriate message displayed |
+| Empty member list       | Appropriate message displayed |
+
+
+📊 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+C++ programming
+Object-Oriented Programming
+Classes and objects
+Encapsulation
+Constructors
+Member functions
+STL vectors
+File input/output
+String handling
+Searching
+Menu-driven programming
+Modular programming
+Multi-file C++ projects
+Input validation
+Debugging and testing
+Git version control
+GitHub repository management
+Project documentation
+
+🚀 Future Enhancements
+
+Possible future improvements include:
+
+Improved input validation
+Case-insensitive search
+Update book information
+Delete book records
+Update member information
+Delete member records
+Book borrowing history
+Fine calculation
+User authentication
+Admin login
+Graphical User Interface
+Database integration using MySQL
+Advanced library reports
+Web-based library management system
+
+🔄 Development Workflow
+
+The project was developed using the following workflow:
+
+Requirement Analysis
+        ↓
+Project Design
+        ↓
+Class Design
+        ↓
+C++ Implementation
+        ↓
+File Handling
+        ↓
+Feature Testing
+        ↓
+Debugging
+        ↓
+Git Version Control
+        ↓
+GitHub Repository
+📌 Internship Project
+
+This project was developed as part of my C++ Programming Internship at Thiranex.
+
+The project provided practical experience in developing a complete console-based application from requirements to implementation, testing, documentation, and GitHub deployment.
+
+👨‍💻 Author
+
+Dileep Chauhan
+
+Electronics and Communication Engineering Student
+
+Interested in:
+
+Embedded Systems
+C/C++
+IoT
+Electronics
+Software Development
+
+GitHub:
+
+https://github.com/dileepchauhan28
+
+📜 License
+
+This project is created for educational and internship purposes.
