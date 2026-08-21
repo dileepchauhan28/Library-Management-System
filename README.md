@@ -1,235 +1,66 @@
-A C++ console-based Library Management System developed using Object-Oriented Programming concepts. The application provides basic functionality to manage books and members, issue and return books, and search for books by title or author.
+# 📚 Library Management System
 
-Project Overview
+A console-based **Library Management System** developed in C++ to efficiently manage books and library members using **Object-Oriented Programming, file handling, searching, and book issue/return operations**.
 
-The Library Management System is designed to simplify basic library operations through a menu-driven console application. It uses C++ classes and file handling to organize book and member information.
+This project was developed as part of my **C++ Programming Internship at Thiranex** to demonstrate practical programming, problem-solving, software development, and Git/GitHub skills.
 
-The project demonstrates practical implementation of:
+---
 
-Object-Oriented Programming
-Classes and Objects
-Encapsulation
-Vectors
-File Handling
-Searching
-Menu-driven programming
-Git and GitHub version control
-Features
-Book Management
-Add new books
-Store book ID, title, and author
-Display all available books
-Track book availability
-Prevent duplicate book IDs
-Member Management
-Add new members
-Store member ID and name
-Display registered members
-Prevent duplicate member IDs
-Book Issue and Return
-Issue an available book
-Return an issued book
-Automatically update book availability
-Save updated book status
-Book Search
+## 📌 Project Overview
 
-Books can be searched using:
+The Library Management System provides a simple and efficient way to manage basic library operations through a menu-driven console application.
 
-Book title
-Author name
-Technologies Used
-Technology	Purpose
-C++	Application development
-OOP	Program structure
-STL Vector	Store books and members
-File Handling	Store application data
-Visual Studio Code	Development environment
-Git	Version control
-GitHub	Project hosting
-Project Structure
-Library-Management-System/
-│
-├── .vscode/
-│   ├── c_cpp_properties.json
-│   ├── launch.json
-│   └── settings.json
-│
-├── data/
-│   ├── books.txt
-│   └── member.txt
-│
-├── include/
-│   ├── Book.h
-│   ├── Member.h
-│   └── Library.h
-│
-├── src/
-│   ├── Book.cpp
-│   ├── Member.cpp
-│   ├── Library.cpp
-│   └── main.cpp
-│
-├── .gitignore
-└── README.md
-Application Menu
-====================================
-       LIBRARY MANAGEMENT SYSTEM
-====================================
-1. Add Book
-2. Add Member
-3. Display Books
-4. Display Members
-5. Issue Book
-6. Return Book
-7. Search Book
-8. Exit
-------------------------------------
-Enter your choice:
-How to Run
-Prerequisites
+The application allows users to:
 
-Install:
+* Add new books
+* Add new library members
+* Display all books
+* Display all registered members
+* Issue books
+* Return books
+* Search books by title
+* Search books by author
+* Track book availability
+* Store book and member information using files
+* Prevent duplicate Book IDs
+* Prevent duplicate Member IDs
 
-Visual Studio Code
-C++ compiler such as MinGW/GCC
-C/C++ extension for Visual Studio Code
+The project is implemented using multiple C++ classes and source files to demonstrate modular and object-oriented programming.
 
-Verify the compiler:
+---
 
-g++ --version
-Clone the Repository
-git clone https://github.com/dileepchauhan28/Library-Management-System.git
+## 🎯 Objectives
 
-Move into the project directory:
+The main objectives of this project are:
 
-cd Library-Management-System
-Compile
+* To develop a simple Library Management System using C++.
+* To apply Object-Oriented Programming concepts.
+* To manage book and member records efficiently.
+* To implement book issue and return functionality.
+* To provide book search functionality.
+* To implement file handling for data storage.
+* To practice modular programming using header and source files.
+* To use Git and GitHub for version control and project management.
 
-Run:
+---
 
-g++ src/main.cpp src/Book.cpp src/Member.cpp src/Library.cpp -Iinclude -o library.exe
-Run
+## ✨ Features
 
-On Windows:
+### 1. 📖 Add Book
 
-.\library.exe
-Sample Operations
-Adding a Book
+Allows the user to add a new book by entering:
+
+* Book ID
+* Book Title
+* Author Name
+
+The system also checks whether the Book ID already exists.
+
+Example:
+
+```text
 Enter Book ID: 101
 Enter Book Title: C++ Programming
 Enter Author Name: Bjarne Stroustrup
 
-
 Book added successfully!
-Adding a Member
-Enter Member ID: 1
-Enter Member Name: Dileep
-
-
-Member added successfully!
-Displaying Books
-========== BOOK LIST ==========
-ID: 101 | Title: C++ Programming | Author: Bjarne Stroustrup | Status: Available
-Issuing a Book
-Enter Book ID to issue: 101
-
-
-Book issued successfully!
-Returning a Book
-Enter Book ID to return: 101
-
-
-Book returned successfully!
-Searching for a Book
-Search Book By:
-1. Title
-2. Author
-Enter choice: 1
-
-
-Enter search keyword: C++
-
-
-ID: 101 | Title: C++ Programming | Author: Bjarne Stroustrup | Status: Available
-Data Storage
-
-The project uses text files inside the data directory to store application information.
-
-data/
-├── books.txt
-└── member.txt
-
-Book information is stored using fields such as:
-
-Book ID | Title | Author | Status
-
-Member information is stored using:
-
-Member ID | Name
-Object-Oriented Design
-
-The project is divided into separate classes.
-
-Book Class
-
-Responsible for:
-
-Book identification
-Title
-Author
-Availability status
-Issue operation
-Return operation
-Member Class
-
-Responsible for:
-
-Member identification
-Member name
-Member information display
-Library Class
-
-Responsible for:
-
-Managing books
-Managing members
-Adding records
-Displaying records
-Issuing books
-Returning books
-Searching books
-File storage
-Learning Outcomes
-
-Through this project, the following concepts were practiced:
-
-Designing classes using C++
-Applying encapsulation
-Using constructors
-Using vectors for data management
-Implementing file input/output
-Creating menu-driven applications
-Handling multiple source and header files
-Compiling multi-file C++ projects
-Using Git for version control
-Publishing projects on GitHub
-Future Enhancements
-
-Possible future improvements include:
-
-Improved input validation
-Case-insensitive search
-Update and delete book/member records
-Graphical user interface
-Database integration
-Advanced reporting features
-Author
-
-Dileep Chauhan
-
-GitHub:
-https://github.com/dileepchauhan28
-
-License
-
-This project is created for educational and internship purposes.
