@@ -2,6 +2,8 @@
 #define LIBRARY_H
 
 #include <vector>
+#include <string>
+
 #include "Book.h"
 #include "Member.h"
 
@@ -12,7 +14,12 @@ private:
     vector<Book> books;
     vector<Member> members;
 
+    const string BOOK_FILE = "data/books.txt";
+    const string MEMBER_FILE = "data/member.txt";
+
 public:
+    Library();
+
     void addBook();
     void addMember();
 
@@ -23,6 +30,12 @@ public:
     void returnBook();
 
     void searchBook() const;
+
+    void loadBooks();
+    void loadMembers();
+
+    void saveBooks() const;
+    void saveMembers() const;
 };
 
 #endif

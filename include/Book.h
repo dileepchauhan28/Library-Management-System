@@ -13,7 +13,7 @@ private:
 
 public:
     Book();
-    Book(int id, string title, string author);
+    Book(int id, string title, string author, bool available = true);
 
     int getId() const;
     string getTitle() const;
