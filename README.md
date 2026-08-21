@@ -141,15 +141,7 @@ Library-Management-System/
 ├── data/
 │   ├── books.txt
 │   └── members.txt
-│
-├── screenshots/
-│   ├── menu.png
-│   ├── add-book.png
-│   ├── add-member.png
-│   ├── issue-book.png
-│   ├── return-book.png
-│   └── search-book.png
-│
+|
 ├── .gitignore
 └── README.md
 ```
@@ -384,38 +376,6 @@ This helps maintain unique records within the system.
 
 ---
 
-## 🖼️ Screenshots
-
-Screenshots of the application can be added to the `screenshots` folder.
-
-### Main Menu
-
-![Main Menu](screenshots/menu.png)
-
-### Adding a Book
-
-![Add Book](screenshots/add-book.png)
-
-### Adding a Member
-
-![Add Member](screenshots/add-member.png)
-
-### Issuing a Book
-
-![Issue Book](screenshots/issue-book.png)
-
-### Returning a Book
-
-![Return Book](screenshots/return-book.png)
-
-### Searching for a Book
-
-![Search Book](screenshots/search-book.png)
-
-> If you do not have screenshots, you can remove this section until they are available.
-
----
-
 ## 💻 Requirements
 
 To run this project, you need:
@@ -566,13 +526,6 @@ This project is created for **educational and academic purposes**.
 You are free to modify and improve the project for learning and development purposes.
 
 ---
-
-## ⭐ Support
-
-If you found this project useful, consider giving the repository a ⭐ on GitHub!
-
----
-
 ### 📌 Project Highlights
 
 ```text
