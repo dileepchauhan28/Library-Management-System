@@ -182,176 +182,95 @@ Library-Management-System/
 ├── .gitignore
 └── README.md
 
-📄 File Description
-Book.h
+## 📄 File Description
 
-Contains the declaration of the Book class.
+### `Book.h`
 
-Responsible for:
-
-Book ID
-Book title
-Author
-Availability status
-Issue operation
-Return operation
-Display operation
-Member.h
-
-Contains the declaration of the Member class.
+Contains the declaration of the `Book` class.
 
 Responsible for:
 
-Member ID
-Member name
-Member information display
-Library.h
+* Book ID
+* Book title
+* Author name
+* Availability status
+* Issue operation
+* Return operation
+* Display operation
 
-Contains the declaration of the Library class.
+### `Member.h`
+
+Contains the declaration of the `Member` class.
 
 Responsible for:
 
-Managing books
-Managing members
-Adding records
-Displaying records
-Issuing books
-Returning books
-Searching books
-Book.cpp
+* Member ID
+* Member name
+* Member information display
 
-Contains the implementation of the Book class.
+### `Library.h`
 
-Member.cpp
+Contains the declaration of the `Library` class.
 
-Contains the implementation of the Member class.
+Responsible for:
 
-Library.cpp
+* Managing books
+* Managing members
+* Adding records
+* Displaying records
+* Issuing books
+* Returning books
+* Searching books
 
-Contains the implementation of the main library operations.
+### `Book.cpp`
 
-main.cpp
+Contains the implementation of the `Book` class.
 
-Contains the main program and menu-driven interface.
+### `Member.cpp`
 
-data/books.txt
+Contains the implementation of the `Member` class.
 
-Stores book information.
+### `Library.cpp`
 
-data/member.txt
+Contains the implementation of the main library management operations.
 
-Stores member information.
+The class handles:
 
-🧪 Testing
+* Adding books
+* Adding members
+* Displaying books
+* Displaying members
+* Issuing books
+* Returning books
+* Searching books
 
-The following operations were tested:
+### `main.cpp`
 
-| Test Case               | Expected Result               |
-| ----------------------- | ----------------------------- |
-| Add new book            | Book added successfully       |
-| Add duplicate book ID   | Duplicate prevented           |
-| Add new member          | Member added successfully     |
-| Add duplicate member ID | Duplicate prevented           |
-| Display books           | All books displayed           |
-| Display members         | All members displayed         |
-| Issue available book    | Book status becomes Issued    |
-| Issue issued book       | Appropriate message displayed |
-| Return issued book      | Book status becomes Available |
-| Return available book   | Appropriate message displayed |
-| Search by title         | Matching books displayed      |
-| Search by author        | Matching books displayed      |
-| Search invalid book     | No matching books found       |
-| Empty book list         | Appropriate message displayed |
-| Empty member list       | Appropriate message displayed |
+Contains the main program and menu-driven interface of the Library Management System.
 
+### `data/books.txt`
 
-📊 Learning Outcomes
+Stores book information using text-file storage.
 
-Through this project, I gained practical experience in:
+### `data/member.txt`
 
-C++ programming
-Object-Oriented Programming
-Classes and objects
-Encapsulation
-Constructors
-Member functions
-STL vectors
-File input/output
-String handling
-Searching
-Menu-driven programming
-Modular programming
-Multi-file C++ projects
-Input validation
-Debugging and testing
-Git version control
-GitHub repository management
-Project documentation
+Stores registered member information using text-file storage.
 
-🚀 Future Enhancements
+---
 
-Possible future improvements include:
+## 🖥️ Application Menu
 
-Improved input validation
-Case-insensitive search
-Update book information
-Delete book records
-Update member information
-Delete member records
-Book borrowing history
-Fine calculation
-User authentication
-Admin login
-Graphical User Interface
-Database integration using MySQL
-Advanced library reports
-Web-based library management system
-
-🔄 Development Workflow
-
-The project was developed using the following workflow:
-
-Requirement Analysis
-        ↓
-Project Design
-        ↓
-Class Design
-        ↓
-C++ Implementation
-        ↓
-File Handling
-        ↓
-Feature Testing
-        ↓
-Debugging
-        ↓
-Git Version Control
-        ↓
-GitHub Repository
-📌 Internship Project
-
-This project was developed as part of my C++ Programming Internship at Thiranex.
-
-The project provided practical experience in developing a complete console-based application from requirements to implementation, testing, documentation, and GitHub deployment.
-
-👨‍💻 Author
-
-Dileep Chauhan
-
-Electronics and Communication Engineering Student
-
-Interested in:
-
-Embedded Systems
-C/C++
-IoT
-Electronics
-Software Development
-
-GitHub:
-
-https://github.com/dileepchauhan28
-
-📜 License
-
-This project is created for educational and internship purposes.
+```text
+====================================
+       LIBRARY MANAGEMENT SYSTEM
+====================================
+1. Add Book
+2. Add Member
+3. Display Books
+4. Display Members
+5. Issue Book
+6. Return Book
+7. Search Book
+8. Exit
+------------------------------------
+Enter your choice:
